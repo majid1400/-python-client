@@ -1,0 +1,48 @@
+{
+  "doc": "Common record schema",
+  "fields": [
+    {
+      "doc": "Produce time in epoch",
+      "name": "ts",
+      "type": "long"
+    },
+    {
+      "doc": "Country name",
+      "name": "country",
+      "type": "string"
+    },
+    {
+      "doc": "Platform name",
+      "name": "platform",
+      "type": "string"
+    },
+    {
+      "doc": "Sub Platform",
+      "name": "sub_platform",
+      "type": "string"
+    },
+    {
+      "doc": "User identify",
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "doc": "Raw data in json format",
+      "name": "raw_data",
+      "type": "string"
+    },
+    {
+      "doc": "Fetch time in epoch",
+      "name": "fetch_ts",
+      "type": "long"
+    },
+    {
+      "doc": "Fetch information",
+      "name": "fetch_info",
+      "type": "string"
+    }
+  ],
+  "name": "commonRecord",
+  "namespace": "org.kavosh.fahm",
+  "type": "record"
+}
